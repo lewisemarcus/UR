@@ -1,0 +1,32 @@
+.dimensionTitle, .dimensionValue{
+    font-size:50px
+}
+
+.loader{
+    display:none;
+}
+
+canvas{
+	display: inline;	
+}
+
+
+
+#screen{
+    position:relative;
+}
+
+#video{
+    position:absolute;
+    left:0;
+    top:0;   
+    z-index:1;
+    object-fit:cover;
+}
+
+#aug{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+}
